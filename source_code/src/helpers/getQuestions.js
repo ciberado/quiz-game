@@ -29,41 +29,9 @@ export default async function getQuestions (topics, qNumber) {
 		return questions
 	}
 
-	if (process.env.NODE_ENV === 'development') {
-		return new Promise((resolve, reject) => {
-			setTimeout(() => {
-				// const error = new Error('Custom error')
-				// error.statusCode = 350
-				// reject(error)
-
-				resolve(randomArray(getOfflineQuestions()))
-			}, 1 * 1000)
-		})
-	}
-
-	const iaQuestions = fetch('/api/questions', {
-		method: 'POST',
-		headers: {
-			'Content-Type': 'application/json'
-		},
-		body: JSON.stringify({ topics: messyTopics.slice(0, 3) })
-	}).then(res => res.json())
-		.then(data => {
-			if (data.statusCode >= 400) {
-				const error = new Error(data.message)
-				error.statusCode = data.status
-				throw error
-			} else return data
-		})
-		.catch(err => {
-			console.log(err)
-			throw err
-		})
-
-	return iaQuestions
-		.then(iaQuestions => randomArray([
-			...iaQuestions,
-			...getOfflineQuestions().slice(iaQuestions.length)
-		]))
-		.catch(() => randomArray(getOfflineQuestions()))
+	return new Promise((resolve, reject) => {
+		setTimeout(() => {
+			resolve(randomArray(getOfflineQuestions()))
+		}, 1 * 1000)
+	})
 }

@@ -768,86 +768,96 @@
 			"correctAnswer": "Neil Armstrong"
 		}
 	],
-	"General culture": [
+	"Tailscale": [
 		{
-			"question": "What part of the ship does the nautical term \"starboard\" refer to?",
-			"answers": ["Right", "Left", "Front", "Back"],
-			"correctAnswer": "Right"
-		},
-		{
-			"question": "Which river runs through London?",
-			"answers": ["Thames", "Seine", "Danube", "Nile"],
-			"correctAnswer": "Thames"
-		},
-		{
-			"question": "Who turns into Hulk?",
+			"question": "What is the primary purpose of Tailscale?",
 			"answers": [
-				"Bruce Banner",
-				"Tony Stark",
-				"Peter Parker",
-				"Steve Rogers"
+				"To create a secure, private network overlay",
+				"To manage cloud storage services",
+				"To optimize website loading speeds",
+				"To provide email encryption"
 			],
-			"correctAnswer": "Bruce Banner"
+			"correctAnswer": "To create a secure, private network overlay"
 		},
 		{
-			"question": "How many players does a soccer team have on the field?",
-			"answers": ["11", "10", "9", "12"],
-			"correctAnswer": "11"
+			"question": "Which technology does Tailscale use as its underlying VPN protocol?",
+			"answers": [
+				"OpenVPN",
+				"IPsec",
+				"WireGuard",
+				"L2TP/IPsec"
+			],
+			"correctAnswer": "WireGuard"
 		},
 		{
-			"question": "Which of these is a percussion instrument?",
-			"answers": ["Drum", "Violin", "Flute", "Trumpet"],
-			"correctAnswer": "Drum"
+			"question": "What is a key feature of Tailscale that simplifies network configuration?",
+			"answers": [
+				"Automatic load balancing",
+				"Zero-config NAT traversal",
+				"Built-in web hosting",
+				"Integrated DNS server"
+			],
+			"correctAnswer": "Zero-config NAT traversal"
 		},
 		{
-			"question": "What color is the \"G\" in the Google logo?",
-			"answers": ["Blue", "Red", "Yellow", "Green"],
-			"correctAnswer": "Blue"
+			"question": "How does Tailscale handle user authentication?",
+			"answers": [
+				"Using a centralized password database",
+				"Through biometric verification",
+				"By leveraging existing identity providers (e.g., Google, Microsoft)",
+				"With hardware security keys only"
+			],
+			"correctAnswer": "By leveraging existing identity providers (e.g., Google, Microsoft)"
 		},
 		{
-			"question": "What holds the Oscar trophy figurine?",
-			"answers": ["A sword", "A torch", "A book", "Nothing"],
-			"correctAnswer": "A sword"
+			"question": "What is the maximum number of devices allowed on Tailscale's free plan?",
+			"answers": [
+				"5 devices",
+				"20 devices",
+				"50 devices",
+				"100 devices"
+			],
+			"correctAnswer": "100 devices"
 		},
 		{
-			"question": "What instrument does Sherlock Holmes play?",
-			"answers": ["Violin", "Flute", "Piano", "Guitar"],
-			"correctAnswer": "Violin"
+			"question": "What feature does Tailscale offer to securely share resources with external collaborators?",
+			"answers": [
+				"Guest Access",
+				"Tailscale Funnel",
+				"Public Nodes",
+				"Open Sharing"
+			],
+			"correctAnswer": "Tailscale Funnel"
 		},
 		{
-			"question": "What is a falchion?",
-			"answers": ["A sword", "A shield", "A helmet", "A spear"],
-			"correctAnswer": "A sword"
+			"question": "Which operating systems does Tailscale support?",
+			"answers": [
+				"Only Windows and macOS",
+				"Only Linux distributions",
+				"Windows, macOS, and iOS",
+				"Windows, macOS, Linux, iOS, and Android"
+			],
+			"correctAnswer": "Windows, macOS, Linux, iOS, and Android"
 		},
 		{
-			"question": "How many hearts does an octopus have?",
-			"answers": ["3", "2", "1", "0"],
-			"correctAnswer": "3"
+			"question": "What is Tailscale's 'MagicDNS' feature?",
+			"answers": [
+				"A tool for optimizing DNS queries",
+				"A system for automatically assigning domain names to devices",
+				"A DNS-based content filtering service",
+				"A method for encrypting DNS requests"
+			],
+			"correctAnswer": "A system for automatically assigning domain names to devices"
 		},
 		{
-			"question": "What does the Tin Woodman want in the novel \"The Wonderful Wizard of Oz\"?",
-			"answers": ["A heart", "A brain", "Courage", "A home"],
-			"correctAnswer": "A heart"
-		},
-		{
-			"question": "What color is the hair of the protagonist in the anime \"Death Note\"?",
-			"answers": ["Black", "Blonde", "Red", "Brown"],
-			"correctAnswer": "Brown"
-		},
-		{
-			"question": "What is the name of the holy book of Islam?",
-			"answers": ["Quran", "Bible", "Torah", "Vedas"],
-			"correctAnswer": "Quran"
-		},
-		{
-			"question": "How old is a lustrum?",
-			"answers": ["5 years", "10 years", "15 years", "20 years"],
-			"correctAnswer": "5 years"
-		},
-		{
-			"question": "How many sides does a hexagon have?",
-			"answers": ["6", "5", "7", "8"],
-			"correctAnswer": "6"
-		}
+			"question": "How does Tailscale handle routing between nodes?",
+			"answers": [
+				"Through a central routing server",
+				"Using blockchain technology",
+				"With mesh networking",
+				"Via traditional hub-and-spoke VPN architecture"
+			],
+			"correctAnswer": "With mesh networking"
+		}		
 	]
 }
